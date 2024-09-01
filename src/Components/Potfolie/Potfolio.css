@@ -1,0 +1,72 @@
+.potfolio-work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap-reverse;
+  padding: 20px 15px;
+  max-width: 1200px;
+  /* width: 100%; */
+  margin: auto;
+}
+
+.work-img {
+  max-width: 330px;
+  cursor: pointer;
+}
+
+.work-img img {
+  width: 100%;
+  border: 3px solid transparent;
+  transition: 0.5s;
+}
+
+.work-img img:hover {
+  scale: 1.1;
+  transition: 0.3s;
+  border: 3px solid #ff00ff;
+  border-radius: 10px;
+}
+.mywork-show-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.mywork-show-more button {
+  display: flex;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #ffff;
+  padding: 15px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.01);
+  cursor: pointer;
+  border: 2px solid #ffff;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.mywork-show-more button img {
+  width: 20px;
+}
+
+.mywork-show-more button:hover {
+  gap: 30px;
+}
+
+
+@media (max-width:380px) {
+  .work-img{
+    max-width: 250px;
+  }
+  .potfolio-work-container{
+    gap: 10px;
+    width: 100%;
+  }
+}
