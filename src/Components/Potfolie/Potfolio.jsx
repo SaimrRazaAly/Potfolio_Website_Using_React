@@ -14,6 +14,9 @@ const Potfolio = () => {
               return (
                 <div className="work-img" key={i}>
                   <img src={v.w_img} alt=""  />
+                  <div className="View-code">
+                    <button> <a href={v.w_code_link} target="blank">View Code</a></button>
+                  </div>
                 </div>
               );
             })}
