@@ -18,7 +18,7 @@ const More_Detail_Page = ({ H1, para, setSelectedService }) => {
       </div>
       <div className="full-screen-icon">
         <p>Full Screen</p>
-<img src={Full_Screen_Icon} alt="" />
+{/* <img src={Full_Screen_Icon} alt="" /> */}
       </div>
     </div>
   );

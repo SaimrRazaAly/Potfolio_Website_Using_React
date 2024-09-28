@@ -9,7 +9,7 @@ const Hero = () => {
     </div>
     <div className="hero-text">
         <h1><span>I'm Saim Raza,</span> fronted developer based in Gilgit</h1>
-        <p>fronted developer from Nagar colony,Gilgit with 2 years of experience in multiple companines like 3D-GB Google etc.</p>
+        <p>fronted developer from Nagar colony,Gilgit with 2 years of experience in multiple technologies like React, Next JS  etc.</p>
     </div>
     <div className="hero-btns">
         <button className='active'>
