@@ -24,7 +24,7 @@ const Contact = () => {
                 <img src={Phone} alt="" /> <h2>03194083141</h2>
               </div>
               <div className="detail">
-                <img src={Location} alt="" /> <h2>Gilgit</h2>
+                <img src={Location} alt="" /> <h2>Gilgit ,Paksistan</h2>
               </div>
             </div>
           </div>
