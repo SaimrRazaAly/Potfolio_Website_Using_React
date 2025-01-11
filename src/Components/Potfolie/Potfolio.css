@@ -40,15 +40,32 @@
   align-items: center;
   margin-top: 40px;
 }
+.mywork-show-more a{
+  text-decoration: none;
+  color: white;
+}
+.mywork-show-more button {
+  padding: 20px 27px;
+}
+.mywork-show-more button img{
+  scale: 1.1;
+  margin-left: 10px;
+  transition: .2s;
+}
+.mywork-show-more button:hover img{
+  margin-left: 30px;
+}
 
 .mywork-show-more button,
-.View-code button {
+.View-code button,
+.visit-btn {
   display: flex;
   border: 0;
   outline: 0;
   background: transparent;
   color: #ffff;
-  padding: 15px 25px;
+  padding: 15px;
+  /* padding: 15px 25px; */
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -58,6 +75,16 @@
   border: 2px solid #ffff;
   transition: 0.5s;
   font-size: 18px;
+  scale: 0.9;
+  margin: 10px;
+}
+.visit-btn {
+  background: #212121;
+  color: white;
+  border: 0;
+}
+.visit-btn .arrow {
+  rotate: -45deg;
 }
 
 .mywork-show-more button img {

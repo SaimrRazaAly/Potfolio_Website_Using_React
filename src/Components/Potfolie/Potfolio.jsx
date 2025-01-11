@@ -15,7 +15,10 @@ const Potfolio = () => {
                 <div className="work-img" key={i}>
                   <img src={v.w_img} alt=""  />
                   <div className="View-code">
-                    <button> <a href={v.w_code_link} target="blank">View Code</a></button>
+                  {v.w_live &&(
+                    <a className="visit-btn" href={v.w_live_url} target="_blank" > Live Demo <span class="arrow">→</span></a>
+                  )}
+                    <button> <a href={v.w_code_link} target="_blank">View Code</a></button>
                   </div>
                 </div>
               );
@@ -24,7 +27,9 @@ const Potfolio = () => {
         </div>
         <div className="mywork-show-more">
           <button>
+            <a href="https://github.com/SaimrRazaAly " target="blank">
             ShowMore <img src={arrow_icon} alt="" />
+            </a>
           </button>
         </div>
       </section>

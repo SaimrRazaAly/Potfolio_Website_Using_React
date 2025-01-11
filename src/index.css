@@ -21,6 +21,7 @@ a{
 }
 
 ::-webkit-scrollbar-thumb{
+  cursor:default;
   background: linear-gradient(245deg, #da7c25 20.36%, #b923e1 100.06%);
   border-radius: 50px;
 }
