@@ -1,27 +1,28 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
-body{
+body {
   background: #161513;
   color: #ffff;
   height: 100vh;
   font-family: sans-serif;
   overflow-x: hidden;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-a{
+a {
   text-decoration: none;
 }
-::-webkit-scrollbar{
-  width:10px;
+::-webkit-scrollbar {
+  width: 10px;
   background: transparent;
 }
 
-::-webkit-scrollbar-thumb{
-  cursor:default;
+::-webkit-scrollbar-thumb {
+  cursor: default;
   background: linear-gradient(245deg, #da7c25 20.36%, #b923e1 100.06%);
   border-radius: 50px;
 }
+

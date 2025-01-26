@@ -40,7 +40,9 @@
   padding: 0px 20px;
   font-size: 17px;
   text-align: start;
-  font-family: sans-serif;
+  font-size: 1.1rem; /* Slightly larger than the default for readability */
+   /* Aligns text neatly for readability */
+  font-family: "Arial", sans-serif; /* Clean, professional font */
 }
 .detail {
   display: flex;
@@ -124,7 +126,7 @@ textarea {
     font-size: 30px;
     transform: translateX(10px);
   }
-  .contact-left .more-details{
+  .contact-left .more-details {
     transform: translateX(10px);
   }
 
@@ -133,8 +135,6 @@ textarea {
     width: 80%;
     transform: translateX(10px);
   }
-  
-
 
   .more-details {
     padding-left: 20px;

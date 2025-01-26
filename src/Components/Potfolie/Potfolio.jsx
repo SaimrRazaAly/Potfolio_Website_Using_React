@@ -27,7 +27,7 @@ const Potfolio = () => {
         </div>
         <div className="mywork-show-more">
           <button>
-            <a href="https://github.com/SaimrRazaAly " target="blank">
+            <a href="https://github.com/SaimrRazaAly?tab=repositories " target="blank">
             ShowMore <img src={arrow_icon} alt="" />
             </a>
           </button>

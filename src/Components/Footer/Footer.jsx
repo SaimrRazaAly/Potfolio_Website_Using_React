@@ -19,9 +19,8 @@ const Footer = () => {
               {/* <img src={Theme_Pattren} alt=""  className="footer-logo-img"/> */}
             </div>
             </div>
-            <p>
-              fronted developer from Nagar colony,Gilgit with 2 years of
-              experience in multiple companines like 3D-GB Google etc.
+            <p className="para-foot">
+            I'm a Frontend Developer from Nagar Colony, Gilgit. Let's collaborate and bring great ideas to life! 
             </p>
           </div>
           <div className="footer-right">
