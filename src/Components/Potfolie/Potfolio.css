@@ -97,7 +97,7 @@
 
 @media (max-width: 380px) {
   .work-img {
-    max-width: 250px;
+    max-width: 350px;
   }
   .potfolio-work-container {
     gap: 10px;

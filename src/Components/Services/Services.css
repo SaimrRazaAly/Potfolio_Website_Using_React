@@ -125,12 +125,19 @@
   }
   .services-box button  {
     font-size: 11px;
-
+    
   }
   .services-box h2{
     font-size: 15px;
   }
-
+  
 } 
 
-  
+
+
+@media (max-width:350px) {
+  .services-content{
+    padding: 0;
+    margin: 0;
+  }
+}

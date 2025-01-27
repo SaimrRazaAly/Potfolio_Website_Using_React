@@ -3,6 +3,7 @@ import "./Potfolio.css";
 import MyData from "../../asserts/assets/mywork_data";
 import arrow_icon from "../../asserts/assets/arrow_icon.svg";
 import "./Potfolio.css";
+import Card from "./Card";
 const Potfolio = () => {
   return (
     <>
@@ -10,7 +11,7 @@ const Potfolio = () => {
         <div className="potfolio-content">
           <Heading title={"My Latest Work"} />
           <div className="potfolio-work-container">
-            {MyData.map((v, i) => {
+            {/* {MyData.map((v, i) => {
               return (
                 <div className="work-img" key={i}>
                   <img src={v.w_img} alt=""  />
@@ -22,6 +23,11 @@ const Potfolio = () => {
                   </div>
                 </div>
               );
+            })} */}
+            {MyData.map((v, i) => {
+              return (
+                <Card key={v.w_no} titile={v.w_name} img={v.w_img} live={v.w_live} codeLink={v.w_code_link}  liveUrl={v.w_live_url}/>
+                              );
             })}
           </div>
         </div>
