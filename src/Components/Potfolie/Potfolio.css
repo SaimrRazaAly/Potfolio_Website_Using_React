@@ -9,7 +9,9 @@
   /* width: 100%; */
   margin: auto;
 }
-
+.projects-grid{
+  padding: 20px 60px;
+}
 .work-img {
   max-width: 330px;
   cursor: pointer;
@@ -129,4 +131,9 @@
 }
 .work-img:hover .View-code {
   margin-top: 0px;
+}
+@media (max-width:350px) {
+  .projects-grid{
+    padding: 15px 30px;
+  }
 }

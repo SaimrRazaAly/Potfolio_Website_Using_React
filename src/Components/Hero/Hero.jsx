@@ -17,7 +17,7 @@ const Hero = () => {
     </div>
     <div className="hero-text">
         <h1><span>I'm Saim Raza,</span> fronted developer based in Paksitan</h1>
-        <p>fronted developer from Gilgit with 2 years of experience in multiple technologies like React, Next JS  etc.</p>
+        <p>Crafting beautiful and performant web experiences with modern  technologies like React, Next JS  etc.</p>
     </div>
     <div className="hero-btns">
         <button className='active'>
