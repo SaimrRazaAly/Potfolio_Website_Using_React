@@ -17,14 +17,14 @@
   margin-bottom: 80px;
 }
 .services-box .icon {
- scale: 2;
+  scale: 2;
   margin: 10px auto;
 }
 .services-box {
   display: flex;
   align-items: start;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
   border: 2px solid #ffff;
   padding: 40px;
   border-radius: 10px;
@@ -35,12 +35,9 @@
   background: transparent;
 }
 
-.services-box h3 {
-  font-size: 22px;
-  font-weight: 600;
-}
 .services-box h2 {
-  font-size: 28px;
+  font-size: 35px;
+  margin-top:40px;
   font-weight: 800;
   background: linear-gradient(270deg, #da7c25 50%, #b923e1 100.06%);
   background-clip: text;

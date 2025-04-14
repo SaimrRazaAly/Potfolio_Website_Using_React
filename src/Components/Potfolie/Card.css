@@ -9,6 +9,12 @@
   height: 400px;
 }
 
+.lite-box:hover{
+  background: none;
+  cursor: pointer;
+  transform: skewY(4deg);
+}
+
 .services-box h2 {
   font-size: 24px;
   font-weight: 800;
