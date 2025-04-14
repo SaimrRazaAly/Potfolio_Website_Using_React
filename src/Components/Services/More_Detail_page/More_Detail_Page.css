@@ -1,3 +1,5 @@
+
+
 .detail-container {
   width: 50%;
   max-height: 50%;
@@ -10,7 +12,7 @@
   /* border: 1px solid #b923e1; */
   border-radius: 12px;
   padding:40px;
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 200px black;
   transition: 0.5s;
   animation: fadeIn 0.5s linear;
   transform: translate(-50%, -50%);
@@ -27,18 +29,10 @@
 } */
 @keyframes fadeIn {
   0% {
-    top: 0;
-    left: 0;
-    right: 0;
-    transform: translate(50%, 50%);
-    opacity: 0;
+   scale: 0.3;
   }
   100% {
-    opacity: 100%;
-    transform: translate(-50%, -50%);
-    right: 50%;
-    top: 50%;
-    left: 50%;
+   scale: 1;
   }
 }
 .detail-container h1 {

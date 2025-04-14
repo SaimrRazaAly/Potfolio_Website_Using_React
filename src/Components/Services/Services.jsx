@@ -3,6 +3,7 @@ import Heading from "../SecHeading/Heading";
 import Services_Data from "../../asserts/assets/services_data";
 import arrow_icon from "../../asserts/assets/arrow_icon.svg";
 import "./Services.css";
+import { FaBug, FaPaintBrush, FaCode } from "react-icons/fa";
 import More_Detail_Page from "./More_Detail_page/More_Detail_Page";
 
 const Services = () => {
@@ -21,7 +22,8 @@ const Services = () => {
             {Services_Data.map((v, i) => {
               return (
                 <div className="services-box" key={i}>
-                  <h3>{v.s_no}</h3>
+              
+                  <div className="icon">{v.s_no}</div>
                   <h2>{v.s_name}</h2>
                   <p>{v.s_desc}</p>
                   <div className="services-box-btn">
@@ -38,7 +40,7 @@ const Services = () => {
           {selectedService && (
             <More_Detail_Page
               H1={selectedService.s_name}
-              para={selectedService.s_desc}
+              para={selectedService.s_more}
               setSelectedService={setSelectedService}
             />
           )}
