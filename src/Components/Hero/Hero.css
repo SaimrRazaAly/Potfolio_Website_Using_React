@@ -123,7 +123,7 @@
 
 @media (max-width: 700px) {
   .hero h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .hero .hero-text p {
@@ -146,12 +146,12 @@
   }
 
   .hero .hero-text p {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .hero h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .hero_img {
@@ -165,7 +165,7 @@
 
 @media (max-width: 380px) {
   .hero h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .hero-btns .disable,

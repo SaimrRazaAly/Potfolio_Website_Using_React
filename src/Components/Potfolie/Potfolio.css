@@ -1,33 +1,12 @@
-.potfolio-work-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  flex-wrap: wrap-reverse;
-  padding: 20px 15px;
-  max-width: 1200px;
-  /* width: 100%; */
-  margin: auto;
-}
-.projects-grid{
-  padding: 20px 60px;
-}
-.work-img {
-  max-width: 330px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  max-height: 300px;
-}
 
-.work-img img {
-  width: 100%;
-  aspect-ratio: 10/7;
-  height: auto;
-  /* border: 3px solid transparent; */
-  transition: 0.5s;
-  border-radius: 20px;
-  object-fit: cover;
+.projects-grid{
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 90%;
+  border: 1px solid green;
+  margin: auto;
 }
 
 /* .work-img img:hover {

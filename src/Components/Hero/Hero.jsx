@@ -1,5 +1,6 @@
 import Profile_img from '../../asserts/assets/profile-2-transformed.jpeg'
 import './Hero.css'
+import Logo_Moving from './Logo_Moving';
 const Hero = () => {
   const handleDownload = (e) => {
     e.preventDefault()
@@ -24,6 +25,8 @@ const Hero = () => {
           <a href="#page-5" >Connect With Me</a> </button>
         <button className='disable' onClick={handleDownload}>Download Resume</button>
     </div>
+
+    <Logo_Moving/>
 </section>
 </>
   )

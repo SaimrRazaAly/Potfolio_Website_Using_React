@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             </div>
             <p className="para-foot">
-            I'm a Frontend Developer from Nagar Colony, Gilgit. Let's collaborate and bring great ideas to life! 
+            Let's collaborate and bring great ideas to life! 
             </p>
           </div>
           <div className="footer-right">

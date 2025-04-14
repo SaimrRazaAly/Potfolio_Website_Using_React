@@ -1,0 +1,28 @@
+.logo-container {
+    overflow: hidden;
+    /* background: #fff; */
+    width: 60%;
+    padding: 20px 0;
+  }
+  
+  .logo-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .logo-icon {
+    font-size: 30px;
+    /* color: #000; */
+    margin: 0 25px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
