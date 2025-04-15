@@ -116,10 +116,11 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .services-box {
     padding: 10px;
     font-size: 17px;
+    margin-left: 30px;
   }
   .services-box button img {
     width: 15px;
