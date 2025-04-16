@@ -1,6 +1,6 @@
 import img_1 from "./project-1.jpg";
-import img_2 from "./project-2.jpg";
-import img_3 from "./project-3.jpg";
+import img_2 from "./project-3.png";
+import img_3 from "./project-4.png";
 
 export const mywork_data = [
   {
@@ -15,11 +15,11 @@ export const mywork_data = [
   },
   {
     w_no: 2,
-    title: "Blog App",
+    title: "BrainWave",
     description:
-      "A blog application with a modern UI, built using React, Tailwind, and Redux Toolkit.",
+      "A application with a modern UI, built using React, Tailwind CSS ",
     tags: ["React", "Tailwind", "reduxtoolkit"],
-    liveDemo: false,
+    liveDemo: "https://brainwave-gold-nine.vercel.app/",
     viewCode: "https://github.com/SaimrRazaAly/Blog-app-react",
     image: img_2,
   },

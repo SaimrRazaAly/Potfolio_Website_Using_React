@@ -4,7 +4,7 @@ import Logo_Moving from './Logo_Moving';
 const Hero = () => {
   const handleDownload = (e) => {
     e.preventDefault()
-    const fileUrl = "https://drive.google.com/uc?export=download&id=1ulQufEsWfi8paZisOLjzaovRI1WNRXLy";
+    const fileUrl = "https://drive.google.com/uc?export=download&id=1AvjLuO7zJW8l_oKB6nZNpZKHgUDcc9IC";
     const link = document.createElement("a");
     link.href = fileUrl;
     link.download = "resume.pdf"; // Name for the downloaded file
